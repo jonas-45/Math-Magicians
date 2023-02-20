@@ -12,7 +12,6 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -22,9 +21,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Leaderboard <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
-This is a Single Page Application website that provide users with a calculator to do all kinds of mathematical calculations and to read daily mathematical inspirational quotes.
+This is a Single Page Application website that provide users with a calculator to do all kinds of mathematical calculations and to read random math-related quote.
 
 ## Setup
 
@@ -52,12 +51,8 @@ $ npm start
 
 ## Deployment 
 
-<a href="https://jonas-45.github.io/Leaderboard/dist/">Live demo </a>
+<a href="https://jonas-45.github.io/math-magicians/build/">Live demo </a>
 
-### Key Features <a name="key-features"></a>
-
-- Displays scores of players in a table
-- Allows players to submit their scores
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,7 +72,8 @@ $ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add contact form to get in touch with users.
+- [ ] Add calculator tool to app to website.
+- [ ] Add contact page to get in touch with visitors
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +83,7 @@ $ npm start
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jonas-45/Leaderboard/issues).
+Feel free to check the [issues page](https://github.com/jonas-45/math-magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
