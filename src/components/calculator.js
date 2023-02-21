@@ -1,5 +1,5 @@
-import DisplayAnswer from './DisplayAnswer';
-import DisplayCalculatorKeys from './DisplayCalculatorKeys';
+import DisplayAnswer from './DisplayAnswer.js';
+import DisplayCalculatorKeys from './DisplayCalculatorKeys.js';
 
 function Calculator() {
   return (
