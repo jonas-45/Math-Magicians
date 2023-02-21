@@ -2,7 +2,9 @@ import '../index.css';
 
 function DisplayAnswer() {
   return (
-    <div className="answer-display" />
+    <div className="answer-display">
+      0
+    </div>
   );
 }
 
