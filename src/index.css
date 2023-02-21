@@ -52,16 +52,16 @@ body {
 }
 
 .cal-key:nth-child(4n) {
-  background-color: #F5913E;
+  background-color: #f5913e;
+}
+
+.cal-key:last-child {
+  background-color: #f5913e;
 }
 
 .cal-key:nth-child(4n):hover {
   background-color: #544242;
   color: #fff;
-}
-
-.cal-key:last-child{
-  background-color: #F5913E;
 }
 
 .cal-key:last-child:hover {
