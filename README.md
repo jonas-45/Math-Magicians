@@ -13,6 +13,7 @@
 
 - [📖 About the Project](#about-project)
 - [💻 Getting Started](#getting-started)
+    - [Key Features](#key-features)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [⭐️ Show your support](#support)
@@ -56,6 +57,10 @@ $ npm start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Key Features <a name="key-features"></a>
+
+- Displays calculator tool on the website
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -72,7 +77,7 @@ $ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add calculator tool to app to website.
+- [ ] Add navigation menu to website
 - [ ] Add contact page to get in touch with visitors
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
