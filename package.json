@@ -24,6 +24,9 @@
       "react-app/jest"
     ]
   },
+  "resolve": {
+    "extensions": [".js", ".jsx"]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
