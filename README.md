@@ -52,7 +52,7 @@ $ npm start
 
 ## Deployment 
 
-<a href="https://jonas-45.github.io/math-magicians/public/">Live demo </a>
+Live demo (Coming soon)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
