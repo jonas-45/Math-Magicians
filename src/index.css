@@ -1,27 +1,70 @@
-body {
+* {
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-container {
+  margin-top: 30%;
+  width: 400px;
+}
+
+.answer-display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  padding: 0 10px;
+  width: 100%;
+  height: 50px;
+  background-color: #4d4d4e;
+}
+
+.keys-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cal-key {
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 0;
+  border: 1px solid #bababa;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cal-key:hover {
+  background-color: #544242;
+  color: #fff;
+}
+
+.cal-key:nth-child(17) {
+  grid-column: 1 / 3;
+}
+
+.cal-key:nth-child(4n) {
+  background-color: #f5913e;
+}
+
+.cal-key:last-child {
+  background-color: #f5913e;
+}
+
+.cal-key:nth-child(4n):hover {
+  background-color: #544242;
+  color: #fff;
+}
+
+.cal-key:last-child:hover {
+  background-color: #544242;
+  color: #fff;
 }
