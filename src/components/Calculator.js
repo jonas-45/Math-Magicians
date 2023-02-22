@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import DisplayCalculatorKeys from './DisplayCalculatorKeys';
-import calculate from '../logic/calculate.js';
+import calculate from '../logic/calculate';
 import DisplayAnswer from './DisplayAnswer';
 
 function Calculator() {
