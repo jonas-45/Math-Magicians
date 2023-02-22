@@ -7,9 +7,7 @@ function Calculator() {
   const [calobj, setCalculation] = useState({ total: '0', next: '0', operation: '' });
 
   const clickHandler = (buttonName) => {
-    const result = calculate(calobj, buttonName);
-    console.log('RESULT: ', result);
-    setCalculation(result);
+    setCalculation(calculate(calobj, buttonName));
   };
   return (
     <div className="calculator-container">
