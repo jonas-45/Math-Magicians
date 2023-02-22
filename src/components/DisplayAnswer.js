@@ -1,8 +1,8 @@
 import '../index.css';
 import PropTypes from 'prop-types';
 
-function DisplayAnswer(props) {
-  const { total, next } = props.data;
+function DisplayAnswer({ data }) {
+  const { total, next } = data;
   const displayVal = (value1, value2) => {
     if (value2 !== null || value2 === '') {
       return value2;
