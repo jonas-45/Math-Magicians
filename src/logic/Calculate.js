@@ -16,7 +16,7 @@ function isNumber(item) {
 export default function calculate(obj, buttonName) {
   if (buttonName === 'AC') {
     return {
-      total: null,
+      total: '0',
       next: null,
       operation: null,
     };
@@ -74,7 +74,7 @@ export default function calculate(obj, buttonName) {
       };
     }
     // '=' with no operation, nothing to do
-    return {};
+    return { ...obj };
   }
 
   if (buttonName === '+/-') {
@@ -105,7 +105,7 @@ export default function calculate(obj, buttonName) {
     if (obj.total && !obj.next) {
       return { ...obj, operation: buttonName };
     }
-    
+
     if (!obj.total) {
       return { total: 0, operation: buttonName };
     }
