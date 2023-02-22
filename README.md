@@ -60,6 +60,7 @@ Live demo (Coming soon)
 ### Key Features <a name="key-features"></a>
 
 - Displays calculator tool on the website
+- Calculator performs maths operations
 
 <!-- AUTHORS -->
 
