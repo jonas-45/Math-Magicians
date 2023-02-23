@@ -52,7 +52,7 @@ $ npm start
 
 ## Deployment 
 
-Live demo (Coming soon)
+<a href="https://sensational-dieffenbachia-1727b0.netlify.app/">Live demo </a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
