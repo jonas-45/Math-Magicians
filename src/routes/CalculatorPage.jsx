@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import DisplayCalculatorKeys from './DisplayCalculatorKeys';
+import DisplayCalculatorKeys from '../components/DisplayCalculatorKeys';
 import calculate from '../logic/Calculate';
-import DisplayAnswer from './DisplayAnswer';
+import DisplayAnswer from '../components/DisplayAnswer';
 
-function Calculator() {
+function CalculatorPage() {
   const [calobj, setCalculation] = useState({ total: '0', next: '0', operation: '' });
 
   const clickHandler = (buttonName) => {
@@ -11,7 +11,7 @@ function Calculator() {
   };
   return (
     <div className="calculator-page">
-      <p>Lets do some math</p>
+      <h2>Lets do some math</h2>
       <div className="calculator-container">
         <DisplayAnswer data={calobj} />
         <DisplayCalculatorKeys performCalculation={clickHandler} />
@@ -21,4 +21,4 @@ function Calculator() {
   );
 }
 
-export default Calculator;
+export default CalculatorPage;

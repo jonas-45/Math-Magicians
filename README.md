@@ -59,8 +59,10 @@ $ npm start
 
 ### Key Features <a name="key-features"></a>
 
+- Navigation menu load pages without refreshing
 - Displays calculator tool on the website
 - Calculator performs maths operations
+- Shows random math quote to visitors
 
 <!-- AUTHORS -->
 
@@ -78,7 +80,6 @@ $ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add navigation menu to website
 - [ ] Add contact page to get in touch with visitors
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
