@@ -39,7 +39,7 @@ h2 {
 .lorem {
   font-size: 16px;
   font-weight: 300;
-  word-spacing: 1.5;
+  word-spacing: 1.5px;
   margin-bottom: 20px;
 }
 
@@ -119,5 +119,5 @@ h2 {
   font-size: 20px;
   font-weight: 550;
   width: 600px;
-  word-spacing: 2;
+  word-spacing: 2px;
 }
