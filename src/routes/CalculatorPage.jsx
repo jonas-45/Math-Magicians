@@ -11,7 +11,7 @@ function CalculatorPage() {
   };
   return (
     <div className="calculator-page">
-      <p>Lets do some math</p>
+      <h2>Lets do some math</h2>
       <div className="calculator-container">
         <DisplayAnswer data={calobj} />
         <DisplayCalculatorKeys performCalculation={clickHandler} />
