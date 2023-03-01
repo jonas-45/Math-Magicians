@@ -106,3 +106,18 @@ h2 {
   background-color: #544242;
   color: #fff;
 }
+
+.quote-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.quote-text {
+  margin-top: 20%;
+  font-size: 20px;
+  font-weight: 550;
+  width: 600px;
+  word-spacing: 2;
+}
