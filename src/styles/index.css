@@ -11,9 +11,36 @@ body {
   align-items: center;
 }
 
+.wrapper {
+  padding: 3% 5%;
+}
+
+.nav-item {
+  margin-top: 5px;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.lorem {
+  font-size: 16px;
+  font-weight: 300;
+  word-spacing: 1.5;
+  margin-bottom: 20px;
+}
+
 .calculator-container {
   margin-top: 30%;
-  width: 400px;
+  width: 100%;
 }
 
 .answer-display {

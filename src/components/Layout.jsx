@@ -2,7 +2,7 @@ import { Outlet } from 'react-router';
 import Navbar from './Navbar';
 
 const Layout = () => (
-  <div>
+  <div className="wrapper">
     <Navbar />
     <Outlet />
   </div>
