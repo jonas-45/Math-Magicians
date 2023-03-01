@@ -10,14 +10,14 @@ function Calculator() {
     setCalculation(calculate(calobj, buttonName));
   };
   return (
-    <div className='calculator-page'>
-      <p>Let's do some math</p>
+    <div className="calculator-page">
+      <p>Lets do some math</p>
       <div className="calculator-container">
-      <DisplayAnswer data={calobj} />
-      <DisplayCalculatorKeys performCalculation={clickHandler} />
+        <DisplayAnswer data={calobj} />
+        <DisplayCalculatorKeys performCalculation={clickHandler} />
+      </div>
     </div>
-    </div>
-    
+
   );
 }
 
