@@ -51,8 +51,8 @@ $ npm start
 - React
 
 ## Deployment 
-
-<a href="https://sensational-dieffenbachia-1727b0.netlify.app/">Live demo </a>
+This app is deployed with render. The live demo is given below;
+<a href="https://math-magician-h9d3.onrender.com">Live demo </a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
